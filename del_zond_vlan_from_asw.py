@@ -68,11 +68,8 @@ def asw_del_zond_vlan(file):
 #---
                 child.close()
 
-
             except (pexpect.exceptions.TIMEOUT) as error:
                 print('   !!! ip:', ip, error)
-
-
 
 #--------------main---------------------
 
